@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "InvestPro - Where Innovation Meets Investment",
+  title: "QuickRaise - Where Innovation Meets Investment",
   description: "Connect promising startups with strategic investors. From seed funding to Series A and beyond, we accelerate growth through smart capital partnerships.",
 };
 

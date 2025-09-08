@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${serviceData.name} | InvestPro - Professional Investment Services`,
+    title: `${serviceData.name} | QuickRaise - Professional Investment Services`,
     description: `${serviceData.hero.subtitle} Expert ${serviceData.name.toLowerCase()} services for investors and startups.`,
     keywords: `${serviceData.name.toLowerCase()}, investment services, startup services, investor support, ${serviceData.name.toLowerCase().replace(/\s+/g, ', ')}`,
   };

@@ -9,11 +9,11 @@ const AboutUs = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-            About <span className="text-blue-600">Investpro</span>
+            About <span className="text-blue-600">QuickRaise</span>
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-800 mx-auto mb-8"></div>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            At Investpro, we connect ambitious founders with the right investors, mentors, and partners. 
+            At QuickRaise, we connect ambitious founders with the right investors, mentors, and partners. 
             Our platform makes fundraising simpler, faster, and transparent—empowering startups to scale 
             and giving investors access to curated opportunities.
           </p>

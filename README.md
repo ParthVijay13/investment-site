@@ -1,4 +1,4 @@
-# InvestPro - Investment Platform
+# QuickRaise - Investment Platform
 
 A modern, responsive investment platform connecting startups with strategic investors.
 

@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Industries | InvestPro - Specialized Investment Opportunities',
+  title: 'Industries | QuickRaise - Specialized Investment Opportunities',
   description: 'Explore investment opportunities across diverse industries. Connect with specialized investors in Fintech, Healthcare, Telecom, Cybersecurity, and more.',
   keywords: 'industries, investment opportunities, venture capital, startup funding, specialized investors',
 };

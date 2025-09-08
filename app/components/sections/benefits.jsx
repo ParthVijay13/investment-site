@@ -20,7 +20,7 @@ const Benefits = () => {
           {/* Left content */}
           <div>
             <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary mb-6">
-              Why Choose InvestPro
+              Why Choose QuickRaise
             </div>
             
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
@@ -54,7 +54,7 @@ const Benefits = () => {
           {/* Right content - Benefits checklist */}
           <div className="bg-card border rounded-2xl p-8">
             <h3 className="text-xl font-semibold text-foreground mb-6">
-              What You Get With InvestPro
+              What You Get With QuickRaise
             </h3>
             
             <div className="space-y-4">

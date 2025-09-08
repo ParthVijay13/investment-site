@@ -8,11 +8,11 @@ const FAQs = () => {
 
   const faqs = [
     {
-      question: 'How does InvestPro match startups with investors?',
+      question: 'How does QuickRaise match startups with investors?',
       answer: 'Our proprietary AI-powered matching system analyzes multiple factors including industry sector, funding stage, geographic preferences, investment thesis, and portfolio synergies. We consider both quantitative metrics and qualitative factors to ensure optimal matches that benefit both parties.'
     },
     {
-      question: 'What are the fees for using InvestPro\'s services?',
+      question: 'What are the fees for using QuickRaise\'s services?',
       answer: 'We operate on a success-fee model, meaning you only pay when we successfully facilitate a funding round. Our fees are competitive and transparent, typically ranging from 3-5% of the funding amount raised, with no upfront costs or monthly subscriptions.'
     },
     {

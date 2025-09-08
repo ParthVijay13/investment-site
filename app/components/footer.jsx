@@ -60,7 +60,7 @@ const Footer = () => {
                 <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
                   <span className="text-primary-foreground font-bold text-sm">I</span>
                 </div>
-                <span className="text-xl font-bold text-foreground">InvestPro</span>
+                <span className="text-xl font-bold text-foreground">QuickRaise</span>
               </div>
               <p className="text-muted-foreground mb-6 max-w-sm">
                 Connecting innovative startups with strategic investors to fuel growth and drive market transformation.
@@ -70,15 +70,15 @@ const Footer = () => {
               <div className="space-y-2">
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Mail className="h-4 w-4 mr-2" />
-                  hello@investpro.com
+                  shubham@quickraise.in
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Phone className="h-4 w-4 mr-2" />
-                  +1 (555) 123-4567
+                  +91 9462302922
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
                   <MapPin className="h-4 w-4 mr-2" />
-                  San Francisco, CA
+                  Flat No.101, Plot no. 49, Prithviraj Nagar, Maharani Farm, Durgapura Jaipur-302018
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ const Footer = () => {
         <div className="border-t py-6">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-              © 2024 InvestPro. All rights reserved.
+              © 2024 QuickRaise. All rights reserved.
             </p>
             
             {/* Social links */}
