@@ -5,14 +5,15 @@ import InvestorServiceTemplate from '@/app/components/investor-service-template'
 import { getInvestorServiceData, getInvestorServiceSlugs } from '@/lib/investor-services-data';
 
 export async function generateStaticParams() {
-  const slugs = getInvestorServiceSlugs();
+  const slugs = await getInvestorServiceSlugs();
   return slugs.map((slug) => ({
     slug,
   }));
 }
 
 export async function generateMetadata({ params }) {
-  const serviceData = getInvestorServiceData(params.slug);
+  // console.log('params', params);
+  const serviceData = await getInvestorServiceData(params.slug);
   
   if (!serviceData) {
     return {
@@ -27,9 +28,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function InvestorServicePage({ params }) {
+export default  async function InvestorServicePage({ params }) {
   try {
-    const serviceData = getInvestorServiceData(params.slug);
+    const serviceData =  await getInvestorServiceData(params.slug);
 
     if (!serviceData) {
       notFound();
@@ -37,11 +38,11 @@ export default function InvestorServicePage({ params }) {
 
     return (
       <div className="min-h-screen bg-background">
-        <Header />
+        {/* <Header /> */}
         <main>
           <InvestorServiceTemplate serviceData={serviceData} />
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   } catch (error) {

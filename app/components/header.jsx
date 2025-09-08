@@ -44,8 +44,7 @@ const Header = () => {
     { name: 'Startups', href: '#startups', hasDropdown: true },
     { name: 'Investors', href: '#investors', hasDropdown: true },
     { name: 'Industries', href: '#industries', hasDropdown: true },
-    { name: 'Services', href: '#services' },
-    { name: 'About', href: '#about' },
+    { name: 'About', href: '/about' },
   ];
 
   useEffect(() => {
@@ -80,14 +79,14 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-8 cursor-pointer">
             {navigationItems.map((item) => (
               <div key={item.name} className="relative">
                 {item.hasDropdown ? (
                   <>
                     <button
                       onClick={() => toggleDropdown(item.name)}
-                      className="flex items-center text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                      className="flex items-center text-sm font-medium text-muted-foreground hover:text-primary transition-colors cursor-pointer"
                     >
                       {item.name}
                       <ChevronDown 
@@ -147,7 +146,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex">
-            <Button>Book a Session</Button>
+            {/* <Button>Book a Session</Button> */}
           </div>
 
           {/* Mobile menu button */}
@@ -237,7 +236,7 @@ const Header = () => {
                 </div>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full">Book a Session</Button>
+                {/* <Button className="w-full">Book a Session</Button> */}
               </div>
             </div>
           </div>

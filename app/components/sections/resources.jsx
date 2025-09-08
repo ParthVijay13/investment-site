@@ -169,7 +169,7 @@ const Resources = () => {
         </div>
         
         {/* Case Studies */}
-        <div>
+        {/* <div>
           <h3 className="text-2xl font-semibold text-foreground mb-8 text-center">
             Success Stories
           </h3>
@@ -211,7 +211,7 @@ const Resources = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         
         {/* Newsletter CTA */}
         <div className="mt-16 text-center">

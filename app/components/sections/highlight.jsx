@@ -16,7 +16,7 @@ const Highlight = () => {
           {/* Key stat highlight */}
           <div className="inline-flex items-center justify-center p-6 bg-primary/10 rounded-2xl">
             <div className="text-center">
-              <div className="text-4xl lg:text-5xl font-bold text-primary mb-2">$50B+</div>
+              <div className="text-4xl lg:text-5xl font-bold text-primary mb-2">$200 M+</div>
               <div className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
                 Total Market Value Created
               </div>

@@ -147,7 +147,7 @@ export default function IndustriesPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      {/* <Header /> */}
       <main>
         {/* Hero Section */}
         <section className="py-16 lg:py-24">
@@ -238,7 +238,7 @@ export default function IndustriesPage() {
           </div>
         </section>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

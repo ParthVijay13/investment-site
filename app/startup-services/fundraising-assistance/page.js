@@ -78,7 +78,7 @@ export default function FundraisingAssistance() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      {/* <Header /> */}
       
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-gradient-to-r from-blue-50 to-indigo-50">
@@ -239,7 +239,7 @@ export default function FundraisingAssistance() {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

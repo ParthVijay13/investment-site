@@ -37,11 +37,11 @@ export default  async function IndustryPage({ params }) {
 
     return (
       <div className="min-h-screen bg-background">
-        <Header />
+        {/* <Header /> */}
         <main>
           <IndustryTemplate industryData={industryData} />
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   } catch (error) {

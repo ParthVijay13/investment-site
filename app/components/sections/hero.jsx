@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary mb-6">
               <span className="h-2 w-2 bg-primary rounded-full mr-2"></span>
-              Trusted by 500+ Startups & Investors
+              Trusted by 10+ Startups & Investors
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
@@ -42,15 +42,15 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 text-center lg:text-left">
               <div>
-                <div className="text-2xl font-bold text-foreground">$2.5B+</div>
+                <div className="text-2xl font-bold text-foreground">$5 M+</div>
                 <div className="text-sm text-muted-foreground">Funding Raised</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-foreground">500+</div>
+                <div className="text-2xl font-bold text-foreground">10+</div>
                 <div className="text-sm text-muted-foreground">Startups Funded</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-foreground">98%</div>
+                <div className="text-2xl font-bold text-foreground">90%</div>
                 <div className="text-sm text-muted-foreground">Success Rate</div>
               </div>
             </div>
@@ -82,7 +82,7 @@ const Hero = () => {
                 <div className="w-3 h-3 bg-green-500 rounded-full"></div>
                 <div>
                   <div className="text-sm font-semibold">Active Deals</div>
-                  <div className="text-xs text-muted-foreground">125+ this month</div>
+                  <div className="text-xs text-muted-foreground">5+ this month</div>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Hero = () => {
                 <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
                 <div>
                   <div className="text-sm font-semibold">Avg. ROI</div>
-                  <div className="text-xs text-muted-foreground">340% return</div>
+                  <div className="text-xs text-muted-foreground">200% return</div>
                 </div>
               </div>
             </div>

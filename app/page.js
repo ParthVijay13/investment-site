@@ -7,13 +7,14 @@ import Benefits from "@/app/components/sections/benefits";
 import Industries from "@/app/components/sections/industries";
 import InvestorMatching from "@/app/components/sections/investor-matching";
 import Testimonials from "@/app/components/sections/testimonials";
+import OurClients from "@/app/components/sections/our-clients";
 import FAQs from "@/app/components/sections/faqs";
 import Resources from "@/app/components/sections/resources";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      {/* <Header /> */}
       <main>
         <Hero />
         <Highlight />
@@ -21,11 +22,12 @@ export default function Home() {
         <Benefits />
         <Industries />
         <InvestorMatching />
-        <Testimonials />
+        {/* <Testimonials /> */}
+        <OurClients />
         <FAQs />
         <Resources />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

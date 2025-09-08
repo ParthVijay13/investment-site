@@ -88,7 +88,7 @@ export default function InvestmentDiscovery() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      {/* <Header /> */}
       
       {/* Hero Section with Split Layout */}
       <section className="pt-20 pb-16">
@@ -270,7 +270,7 @@ export default function InvestmentDiscovery() {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
